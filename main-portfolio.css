@@ -30,12 +30,12 @@ li {
 }
 
 .leftSide {
-  background-color: #E8EBE4;
+  background-color: #F8F9F9;
   height:100vh;
 }
 
 .rightSide {
-   background-color: #E8EBE4;
+   background-color: #F2F3F4;
    height:100vh;
 }
 
@@ -62,5 +62,35 @@ blockquote p {
 }
 
 #aboutImage {
-  width:100%;
+  width:102%;
+  margin:0;
+  padding:0;
+}
+
+#aboutTitle {
+  position: absolute;
+  top: 300px;
+  left:50%;
+  font-family: fantasy;
+  font-size: 50px;
+}
+
+#aboutParagraph {
+  position: absolute;
+  top: 400px;
+  margin: 30px;
+  padding: 15px;
+  font-family: fantasy;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#videoSection {
+  background-color: #F2F3F4;
+  padding: 75px 50px 50px 50px;
+}
+
+.frameTitle {
+  text-align: center;
+  font-family: fantasy;
 }
