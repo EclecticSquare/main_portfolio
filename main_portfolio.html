@@ -16,20 +16,16 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
 <body>
+  <div id = "topNav">
+    <ul class="nav nav-tabs">
+      <li id="home" class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
   <div class = "container-fluid">
-    <div id = "topNav">
-      <ul class="nav nav-tabs">
-        <li id="home" class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
     <div id = "intro">
-  <!-- need 4 quotes, one for each corner-->
-  <!-- need center image that is circular-->
-  <!-- need to split the page in half with two different colors-->
       <div class = "row" id="row-1">
 
         <div class = "col-lg-6 col-md-6 col-sm-6 leftSide"> <!--Maybe set a background image in css-->
@@ -94,16 +90,13 @@
             <h2 class="frameTitle">In the beginning, there was a woman<br> who wanted
              to learn to code.</h2>
           <div class="embed-responsive embed-responsive-16by9">
-            <video width="1280" height="720" controls>
-              <source src="Tina_Gets_the_Job.mp4" type="video/mp4">
-            </video>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/uyBAje5f8gQ?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
 
         </div>
 
         <div class="col-sm-6" id="video2">
-          <h2 class = "frameTitle"> She attended school, worked hard and did!<br>
-            Check it out!</h2>
+          <h2 class = "frameTitle"> She attended school, worked hard and did!</h2>
             <br>
             <div id="gitCode"> <!--Need to put correct link here-->
               <iframe width= "800" height="400" class="embed-responsive-item" src="https://www.google.com"></iframe>
@@ -120,9 +113,10 @@
 
       <div id = "contact">
         <ul id ="contactList">
-          <img id ="twitter" class="contactImg">
-          <img id ="medium" class="contactImg">
+          <img id ="twitter" class="contactImg" src="twitter.png">
+          <img id ="medium" class="contactImg" src="">
           <img id ="github" class="contactImg">
+          <img id ="linkedIn" class="contactImg" src="https://assets.ifttt.com/images/channels/1259075256/icons/large.png">
         </ul>
       </div>
   </div>
