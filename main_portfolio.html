@@ -18,13 +18,13 @@
 <body>
   <div id = "topNav">
     <ul class="nav nav-tabs">
-      <li id="home" class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
+      <li class="navButton" id="home" class="active"><a href="#">Home</a></li>
+      <li class="navButton"><a href="#">About</a></li>
+      <li class="navButton"><a href="#">Portfolio</a></li>
+      <li class="navButton"><a href="#">Contact</a></li>
     </ul>
   </div>
-  <div class = "container-fluid">
+  <div class = "container-fluid" style="padding: 0">
     <div id = "intro">
       <div class = "row" id="row-1">
 
@@ -82,30 +82,24 @@
              est ante.</p>
       </div>
     </div>
-
     <div id = "portfolio">
       <h1 id="portTitle">Portfolio</h1>
-      <div class="row" id="videoSection"> <!--This div row is the video section -->
-        <div class="col-sm-6" id="video1">
-            <h2 class="frameTitle">In the beginning, there was a woman<br> who wanted
+      <div id="videoSection"> <!--This div row is the video section -->
+        <div>
+          <h2 class="frameTitle">In the beginning, there was a woman who wanted
              to learn to code.</h2>
-          <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/uyBAje5f8gQ?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-
+            <iframe id="frame1" src="https://www.youtube.com/embed/uyBAje5f8gQ?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
 
-        <div class="col-sm-6" id="video2">
+        <div>
           <h2 class = "frameTitle"> She attended school, worked hard and did!</h2>
-            <br>
-            <div id="gitCode"> <!--Need to put correct link here-->
-              <iframe width= "800" height="400" class="embed-responsive-item" src="https://www.google.com"></iframe>
-            </div>
+           <iframe  id="frame2" src="https://www.google.com"></iframe>
         </div>
-        <img class = "portImage1" src ="https://www.axure.com/c/attachments/forum/7-0-general-discussion/3919d1401387174-turn-placeholder-widget-into-image-maintain-interactions-screen-shot-2014-05-29-10.46.57-am.png">
-        <img class = "portImage2" src ="https://1.bp.blogspot.com/puH_Wk_8p3QPZGKTbX50x3rv_A4gcoaQCyE2pIQrEiDYne0WfRBQE5ammraLb2BsOiDp=w300">
+
+        <img class = "portImage" src ="hola.jpg">
+        <img class = "portImage" src ="writing1.jpg">
       </div>
-    </div>
+
 
 
 
@@ -113,12 +107,13 @@
 
       <div id = "contact">
         <ul id ="contactList">
-          <img id ="twitter" class="contactImg" src="twitter.png">
-          <img id ="medium" class="contactImg" src="">
-          <img id ="github" class="contactImg">
-          <img id ="linkedIn" class="contactImg" src="https://assets.ifttt.com/images/channels/1259075256/icons/large.png">
+          <li class="conListLI"><img id ="twitter" class="contactImg" src="twitter.png"></li>
+          <li class="conListLI"><img id ="medium" class="contactImg" src="https://assets.ifttt.com/images/channels/1259075256/icons/large.png"></li>
+          <li class="conListLI"><img id ="github" class="contactImg" src="github.png"></li>
+          <li class="conListLI"><img id ="linkedIn" class="contactImg" src="linkedin.png"></li>
         </ul>
       </div>
   </div>
 
 </body>
+</html>
