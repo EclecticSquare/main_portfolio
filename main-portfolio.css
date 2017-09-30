@@ -29,6 +29,7 @@ ul {
   top: 30%;
   border-radius: 50%;
   height: 375px;
+  border: 2px solid #51E9E4;
 }
 .navButton {
  text-align: center;
@@ -100,14 +101,17 @@ blockquote p {
 
 .frameTitle {
   font-family: fantasy;
+  text-align: center;
 }
-#frame1, .portImage {
-  width: 850px;
+#frame1 {
+  width: 863px;
   height: 550px;
+  margin-left: 43vh;
 }
-#frame2 {
+#frame2, .portImage {
   width:50%;
   height:450px;
+
 }
 #portTitle {
   background-color: #F2F3F4;
